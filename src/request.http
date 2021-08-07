@@ -1,0 +1,16 @@
+GET http://localhost:3002/members
+###
+POST http://localhost:3002/members
+Content-Type: application/json  
+
+{
+    "name": "pham xuan truong",
+    "Id": "20"
+}
+###
+DELETE http://localhost:3002/members/610e5a2e492c6710c4800c0f
+
+###
+PUT http://localhost:3002/members/6610e5b3b6c808f0c58b02658
+
+   
